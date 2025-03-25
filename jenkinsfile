@@ -8,7 +8,7 @@ pipeline {
                 sudo terraform init
                 sudo terraform plan 
                 sudo terraform apply --auto-approve
-                sudo echo "hello"
+                sudo echo "hello world"
                 '''
             }
         }
