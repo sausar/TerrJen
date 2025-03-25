@@ -2,7 +2,7 @@ provider "aws" {
   region = "eu-central-1"
 }
 
-resource "aws_instance" "aws_1" {
+resource "aws_instance" "aws_2" {
   ami           = "ami-0559679b06ebd7e58"
   instance_type = "t2.micro"
   tags = {
